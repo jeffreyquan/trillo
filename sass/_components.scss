@@ -5,7 +5,6 @@
   margin-left: 2rem;
 }
 
-
 ////////////////////////////
 // SEARCH
 .search {
@@ -62,7 +61,6 @@
     fill: var(--color-grey-dark-3);
   }
 }
-
 
 ////////////////////////////
 // USER NAVIGATION
@@ -182,4 +180,53 @@
   color: var(--color-grey-light-4);
   text-align: center;
   padding: 2.5rem;
+}
+
+////////////////////////////
+// GALLERY
+.gallery {
+  display: flex;
+
+  &__photo {
+    width: 100%;
+    display: block;
+  }
+}
+
+////////////////////////////
+// HOTEL OVERVIEW
+.overview {
+  display: flex;
+
+  &__heading {
+
+  }
+
+  &__stars {
+    margin-right: auto;
+  }
+
+  &__icon-star, 
+  &__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary);
+  }
+
+  &__location {
+    
+  }
+
+  &__rating {
+
+  }
+
+  &__rating-average {
+
+  }
+
+  &__rating-count {
+
+  }
+
 }
